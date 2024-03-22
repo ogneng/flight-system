@@ -12,3 +12,6 @@ The csv data is in **flight-system/src/main/resources/static/** and it is fetche
 /flights/saveCSV
 
 I have implemented the functionalities asked in the pdf file, maybe few others for easier approaches.
+
+
+P.S. since the two methods for saving CSV are Post mapped and no request params, they might need to be pinged with empty json file {}
