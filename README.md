@@ -1,13 +1,13 @@
 Hi,
 
-This is a quick solution for the airport/flight system.
-I have used gradle build and for running the app just run it from FlightSystemApplication.java
-It has H2 database and the port is 9292
+This is a quick solution for the airport/flight system. \
+I have used gradle build and for running the app just run it from FlightSystemApplication.java \
+It has H2 database and the port is 9292 \
 
-The link should look something like this:
+The link should look something like this: \
 http://localhost:9292/airports/saveCSV
 
-The csv data is in **flight-system/src/main/resources/static/** and it is fetched from there, using these two endpoints:
+The csv data is in **flight-system/src/main/resources/static/** and it is fetched from there, using these two endpoints: \
 /airports/saveCSV
 /flights/saveCSV
 
